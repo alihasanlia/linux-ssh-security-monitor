@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Linux-Ubuntu-orange?logo=linux&logoColor=white" alt="Linux"/>
   <img src="https://img.shields.io/badge/Network-SSH-green?logo=openssh&logoColor=white" alt="SSH"/>
-  <img src="https://img.shields.io/badge/Focus-Blue%20Team-red" alt="Blue Team"/>
+  <img src="https://img.shields.io/badge/Focus-Blue%20Team-blue" alt="Blue Team"/>
 </p>
 
 ## Overview
@@ -28,7 +28,6 @@
   <img width="48" height="48" src="https://img.icons8.com/color/48/ubuntu--v1.png" alt="Ubuntu" />
   <img width="48" height="48" src="https://img.icons8.com/color/48/bash.png" alt="Bash" />
   <img width="48" height="48" src="https://img.icons8.com/color/48/networking-manager.png" alt="Networking" />
-  <img width="48" height="48" src="https://img.icons8.com/color/48/ssh.png" alt="SSH" />
 </div>
 
 * Python 3
@@ -97,14 +96,14 @@ Successful SSH authentications are not treated as brute-force attempts.
 ### Linux
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linux-ssh-security-monitor.git
+git clone https://github.com/alihasanlia/linux-ssh-security-monitor.git
 cd linux-ssh-security-monitor
 ```
 
 ### Windows
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/linux-ssh-security-monitor.git
+git clone https://github.com/alihasanlia/linux-ssh-security-monitor.git
 cd linux-ssh-security-monitor
 ```
 
@@ -158,18 +157,20 @@ py -m unittest -v tests.test_parser tests.test_detector
 
 ```text
 linux-ssh-security-monitor/
+├── README.md
+├── LICENSE
 ├── src/
 │   ├── main.py
 │   ├── log_parser.py
-│   ├── detector.py
-│   └── alert_manager.py
-├── config/
+│   ├── alert_manager.py
+│   └── detector.py
 ├── samples/
+│   └── auth.log
 ├── reports/
-├── tests/
-├── README.md
-├── LICENSE
-└── requirements.txt
+│   └── sample_report.json
+└── tests/
+    ├── test_parser.py
+    └── test_detector.py
 ```
 
 ## Scope
