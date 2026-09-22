@@ -1,0 +1,15 @@
+2026-09-17T15:40:01.102938+00:00 ubuntu25 systemd[1]: Started Daily apt download activities.
+2026-09-17T15:42:15.302194+00:00 ubuntu25 sudo[5201]: pam_unix(sudo:session): session opened for user secadmin(uid=1000) by (uid=0)
+2026-09-17T15:44:30.823176+00:00 ubuntu25 sshd-session[5353]: Accepted password for vboxuser from ::1 port 37226 ssh2
+2026-09-17T15:48:12.193021+00:00 ubuntu25 sshd-session[5410]: Accepted password for sysops from 198.51.100.20 port 49152 ssh2
+2026-09-17T15:50:02.401928+00:00 ubuntu25 CRON[5502]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+2026-09-17T15:53:10.110294+00:00 ubuntu25 sshd-session[5601]: Failed password for invalid user admin from 192.0.2.10 port 41202 ssh2
+2026-09-17T15:53:45.302914+00:00 ubuntu25 sshd-session[5620]: Failed password for invalid user test from 192.0.2.10 port 41208 ssh2
+2026-09-17T15:54:20.071784+00:00 ubuntu25 sshd-session[5681]: Failed password for invalid user wronguser from 192.0.2.10 port 41214 ssh2
+2026-09-17T15:55:05.819201+00:00 ubuntu25 sshd-session[5704]: Failed password for root from 192.0.2.10 port 41220 ssh2
+2026-09-17T15:55:50.920134+00:00 ubuntu25 sshd-session[5733]: Failed password for ubuntu from 192.0.2.10 port 41226 ssh2
+2026-09-17T15:56:45.412093+00:00 ubuntu25 sshd-session[5780]: Failed password for invalid user guest from 192.0.2.10 port 41232 ssh2
+2026-09-17T15:58:10.502918+00:00 ubuntu25 sshd-session[5812]: Failed password for invalid user dev from 2001:db8::50 port 53102 ssh2
+2026-09-17T15:59:01.002910+00:00 ubuntu25 systemd[1]: Starting Cleanup of Temporary Directories...
+2026-09-17T16:02:14.712093+00:00 ubuntu25 sshd-session[5901]: Accepted password for secadmin from 198.51.100.20 port 49190 ssh2
+2026-09-17T16:05:30.612094+00:00 ubuntu25 sshd-session[5940]: Failed password for invalid user backup from 192.0.2.10 port 41298 ssh2
