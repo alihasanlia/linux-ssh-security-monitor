@@ -1,0 +1,6 @@
+{
+  "log_file_path": "/var/log/auth.log",
+  "time_window_minutes": 5,
+  "failure_threshold": 5,
+  "high_threshold": 15
+}
