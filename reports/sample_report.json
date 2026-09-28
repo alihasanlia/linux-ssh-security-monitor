@@ -1,0 +1,36 @@
+{
+  "report_metadata": {
+    "generator": "Linux SSH Security Monitor",
+    "generated_at": "2026-09-17T16:10:00.000000+00:00",
+    "source_file": "samples/auth.log",
+    "total_alerts": 1,
+    "severity_summary": {
+      "HIGH": 0,
+      "MEDIUM": 1
+    }
+  },
+  "alerts": [
+    {
+      "sensor": "Linux SSH Security Monitor",
+      "generated_at": "2026-09-17T16:10:00.000000+00:00",
+      "severity": "MEDIUM",
+      "attack_type": "SSH Brute-Force",
+      "detection_type": "ssh_brute_force_suspected",
+      "source_ip": "192.0.2.10",
+      "failed_attempts": 6,
+      "time_window_minutes": 5,
+      "first_attempt_timestamp": "2026-09-17T15:53:10.110294+00:00",
+      "last_attempt_timestamp": "2026-09-17T15:56:45.412093+00:00",
+      "affected_usernames": [
+        "admin",
+        "guest",
+        "root",
+        "test",
+        "ubuntu",
+        "wronguser"
+      ],
+      "description": "Observed 6 failed SSH authentication attempts from 192.0.2.10 within a 5-minute window targeting 6 account(s). This activity is consistent with automated credential guessing or SSH brute-force behavior.",
+      "recommendation": "Monitor: Review perimeter logs for 192.0.2.10. Validate whether source address belongs to authorized personnel."
+    }
+  ]
+}
